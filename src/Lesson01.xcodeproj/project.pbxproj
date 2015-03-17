@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3683DA771AB702930019B4B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3683DA761AB702930019B4B9 /* Images.xcassets */; };
+		3683DA7A1AB7176E0019B4B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3683DA781AB7176E0019B4B9 /* Main.storyboard */; };
 		5D06C67D19D8CFFE0082F2DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D06C67C19D8CFFE0082F2DE /* AppDelegate.swift */; };
 		5D06C67F19D8CFFE0082F2DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D06C67E19D8CFFE0082F2DE /* ViewController.swift */; };
-		5D06C68219D8CFFE0082F2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D06C68019D8CFFE0082F2DE /* Main.storyboard */; };
-		5D06C68419D8CFFE0082F2DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D06C68319D8CFFE0082F2DE /* Images.xcassets */; };
 		5D06C69319D8CFFE0082F2DE /* Lesson01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D06C69219D8CFFE0082F2DE /* Lesson01Tests.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,12 +25,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3683DA761AB702930019B4B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3683DA791AB7176E0019B4B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Lesson01/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D06C67719D8CFFE0082F2DE /* Lesson01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D06C67B19D8CFFE0082F2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D06C67C19D8CFFE0082F2DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D06C67E19D8CFFE0082F2DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5D06C68119D8CFFE0082F2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5D06C68319D8CFFE0082F2DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5D06C68C19D8CFFE0082F2DE /* Lesson01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D06C69119D8CFFE0082F2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D06C69219D8CFFE0082F2DE /* Lesson01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson01Tests.swift; sourceTree = "<group>"; };
@@ -77,8 +77,8 @@
 			children = (
 				5D06C67C19D8CFFE0082F2DE /* AppDelegate.swift */,
 				5D06C67E19D8CFFE0082F2DE /* ViewController.swift */,
-				5D06C68019D8CFFE0082F2DE /* Main.storyboard */,
-				5D06C68319D8CFFE0082F2DE /* Images.xcassets */,
+				3683DA781AB7176E0019B4B9 /* Main.storyboard */,
+				3683DA761AB702930019B4B9 /* Images.xcassets */,
 				5D06C67A19D8CFFE0082F2DE /* Supporting Files */,
 			);
 			path = Lesson01;
@@ -189,8 +189,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D06C68219D8CFFE0082F2DE /* Main.storyboard in Resources */,
-				5D06C68419D8CFFE0082F2DE /* Images.xcassets in Resources */,
+				3683DA771AB702930019B4B9 /* Images.xcassets in Resources */,
+				3683DA7A1AB7176E0019B4B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,12 +232,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5D06C68019D8CFFE0082F2DE /* Main.storyboard */ = {
+		3683DA781AB7176E0019B4B9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D06C68119D8CFFE0082F2DE /* Base */,
+				3683DA791AB7176E0019B4B9 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
